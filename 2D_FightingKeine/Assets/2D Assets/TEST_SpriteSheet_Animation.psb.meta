@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: b3f38743996895c4aae7d3a2c1a44794
 ScriptedImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1898764116046676649
+    second: IDLE_6
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -91,18 +94,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: IDLE_5
+  - name: IDLE_9
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 608
       y: 4
       width: 294
       height: 841
-    spriteID: c7c5f35676d1011409910617e419b810
+    spriteID: 98607c9e8baf4b9409d91add8dfe4a01
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,19 +115,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -107, y: -98}
-  - name: IDLE_4
+    uvTransform: {x: 497, y: -98}
+  - name: IDLE_8
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 306
+      x: 910
       y: 4
-      width: 292
+      width: 294
       height: 833
-    spriteID: 6a339bc330c9202469d2fa4680bdefcc
+    spriteID: 19ae749971906f84397d896c723d50ef
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -134,19 +137,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 195, y: -98}
-  - name: IDLE_3
+    uvTransform: {x: 799, y: -98}
+  - name: IDLE_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 606
+      x: 1212
       y: 4
-      width: 293
-      height: 824
-    spriteID: 3d85e3c7921099a45b47e634e655a50a
+      width: 294
+      height: 825
+    spriteID: bb0eb47b7b0d14641bc6d31a23230e8b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -156,29 +159,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 495, y: -98}
-  - name: IDLE_2
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 306
-      y: 845
-      width: 292
-      height: 833
-    spriteID: 9c2f92c68bf8ff640ba178ff1952ffdf
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 195, y: 743}
+    uvTransform: {x: 1101, y: -98}
   - name: IDLE_1
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -190,7 +171,7 @@ ScriptedImporter:
       y: 853
       width: 294
       height: 841
-    spriteID: 3d7eb80e4a4ddfc4c99234f3c56787db
+    spriteID: 9fedcf633bb16eb42b926e7efd693ac4
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -201,6 +182,160 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -107, y: 751}
+  - name: IDLE_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 306
+      y: 4
+      width: 294
+      height: 841
+    spriteID: f40294a84a2fc6d4b8c4985be1d92fe1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 195, y: -98}
+  - name: IDLE_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 294
+      height: 841
+    spriteID: a08f25b84f7f75d419db9363447c13b7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -107, y: -98}
+  - name: IDLE_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1212
+      y: 833
+      width: 294
+      height: 821
+    spriteID: 98281e9dfe59d5d41887a8990c3df55d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1101, y: 731}
+  - name: IDLE_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 837
+      width: 294
+      height: 825
+    spriteID: b1460da96849e8040a66ca2a6ae63280
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 799, y: 735}
+  - name: IDLE_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 844
+      width: 294
+      height: 832
+    spriteID: c2d6f1b686a09804b919da73db234d60
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 497, y: 742}
+  - name: IDLE_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 306
+      y: 853
+      width: 294
+      height: 837
+    spriteID: 151cea049b886994c9ad5ca7c25cbc3d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 195, y: 747}
+  - name: IDLE_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1515
+      y: 4
+      width: 293
+      height: 817
+    spriteID: 75d77c6b81c36a5e0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1515, y: 4}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -228,14 +363,14 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
+  importedTextureWidth: 2048
   importedTextureHeight: 2048
   documentSize: {x: 1920, y: 1080}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
+  textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
@@ -247,41 +382,83 @@ ScriptedImporter:
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
-    layerID: 5
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+  - name: IDLE_11
+    spriteName: IDLE_11
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a08f25b84f7f75d419db9363447c13b7
+    layerID: 17
+    mosaicPosition: {x: 4, y: 4}
+  - name: IDLE_10
+    spriteName: IDLE_10
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f40294a84a2fc6d4b8c4985be1d92fe1
+    layerID: 16
+    mosaicPosition: {x: 306, y: 4}
+  - name: IDLE_9
+    spriteName: IDLE_9
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 98607c9e8baf4b9409d91add8dfe4a01
+    layerID: 15
+    mosaicPosition: {x: 608, y: 4}
+  - name: IDLE_8
+    spriteName: IDLE_8
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 19ae749971906f84397d896c723d50ef
+    layerID: 14
+    mosaicPosition: {x: 910, y: 4}
+  - name: IDLE_7
+    spriteName: IDLE_7
+    isGroup: 0
+    parentIndex: 0
+    spriteID: bb0eb47b7b0d14641bc6d31a23230e8b
+    layerID: 13
+    mosaicPosition: {x: 1212, y: 4}
+  - name: IDLE_6
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 7
     mosaicPosition: {x: 0, y: 0}
   - name: IDLE_5
     spriteName: IDLE_5
     isGroup: 0
     parentIndex: 0
-    spriteID: c7c5f35676d1011409910617e419b810
-    layerID: 13
-    mosaicPosition: {x: 4, y: 4}
+    spriteID: 98281e9dfe59d5d41887a8990c3df55d
+    layerID: 6
+    mosaicPosition: {x: 1212, y: 833}
   - name: IDLE_4
     spriteName: IDLE_4
     isGroup: 0
     parentIndex: 0
-    spriteID: 6a339bc330c9202469d2fa4680bdefcc
-    layerID: 12
-    mosaicPosition: {x: 306, y: 4}
+    spriteID: b1460da96849e8040a66ca2a6ae63280
+    layerID: 5
+    mosaicPosition: {x: 910, y: 837}
   - name: IDLE_3
     spriteName: IDLE_3
     isGroup: 0
     parentIndex: 0
-    spriteID: 3d85e3c7921099a45b47e634e655a50a
-    layerID: 8
-    mosaicPosition: {x: 606, y: 4}
+    spriteID: c2d6f1b686a09804b919da73db234d60
+    layerID: 4
+    mosaicPosition: {x: 608, y: 844}
   - name: IDLE_2
     spriteName: IDLE_2
     isGroup: 0
     parentIndex: 0
-    spriteID: 9c2f92c68bf8ff640ba178ff1952ffdf
-    layerID: 7
-    mosaicPosition: {x: 306, y: 845}
+    spriteID: 151cea049b886994c9ad5ca7c25cbc3d
+    layerID: 3
+    mosaicPosition: {x: 306, y: 849}
   - name: IDLE_1
     spriteName: IDLE_1
     isGroup: 0
     parentIndex: 0
-    spriteID: 3d7eb80e4a4ddfc4c99234f3c56787db
+    spriteID: 9fedcf633bb16eb42b926e7efd693ac4
     layerID: 2
     mosaicPosition: {x: 4, y: 853}
   characterData:
