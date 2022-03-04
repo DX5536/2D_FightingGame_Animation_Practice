@@ -11,6 +11,9 @@ public class DragDropIHandler : MonoBehaviour, IPointerDownHandler, IBeginDragHa
     [SerializeField]
     private string itemMessage;
 
+    [SerializeField]
+    private int textBoxAnswerNumber;
+
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
@@ -18,6 +21,12 @@ public class DragDropIHandler : MonoBehaviour, IPointerDownHandler, IBeginDragHa
     {
         get { return itemMessage; }
         set { itemMessage = value; }
+    }
+
+    public int TextBoxAnswerNumber
+    {
+        get { return textBoxAnswerNumber; }
+        set { textBoxAnswerNumber = value; }
     }
 
     private void Awake()
@@ -30,6 +39,7 @@ public class DragDropIHandler : MonoBehaviour, IPointerDownHandler, IBeginDragHa
     {
         canvasGroup.alpha = 0.5f;
         canvasGroup.blocksRaycasts = false;
+
     }
 
     public void OnDrag(PointerEventData eventData)
