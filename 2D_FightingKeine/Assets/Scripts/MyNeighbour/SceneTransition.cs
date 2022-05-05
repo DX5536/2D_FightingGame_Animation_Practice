@@ -6,47 +6,48 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 
-public class ObjectHighlight : MonoBehaviour
+public class SceneTransition : MonoBehaviour
 {
-    
+    [Header("")]
     [SerializeField]
     private string playerTag = "Player";
 
+    [SerializeField]
+    private int sceneToLoadIndex;
+
     //[SerializeField]
-    private SpriteRenderer objectSpriteRenderer;
-
-    [Header("Sprite Materials")]
-    [SerializeField]
-    private Material spritesDefault_MAT;
-
-    [SerializeField]
-    private Material outline_MAT;
+    private bool canSwitchScene = false;
 
     void Start()
     {
-        objectSpriteRenderer = GetComponent<SpriteRenderer>();
+        
     }
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.T) && canSwitchScene == true)
+        {
+            SceneManager.LoadScene (sceneToLoadIndex);
+            Debug.Log("Switch Scene");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == playerTag)
         {
-            //Debug.Log("Player Enter");
-            objectSpriteRenderer.material = outline_MAT;
+            Debug.Log("Player can go out!");
+            canSwitchScene = true;
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == playerTag)
         {
-            //Debug.Log("Player Exit");
-            objectSpriteRenderer.material = spritesDefault_MAT;
+            Debug.Log("Player can go out!");
+            canSwitchScene = false;
         }
     }
 }

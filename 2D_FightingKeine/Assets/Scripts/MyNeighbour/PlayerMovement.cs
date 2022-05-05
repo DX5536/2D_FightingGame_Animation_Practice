@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private GameObject player;
 
     [SerializeField]
-    private MouseClickPosition mouseClickPosition;
+    private MouseClickPosition mouseManager;
 
     [SerializeField]
     private float tweenDuration;
@@ -26,6 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        player.transform.DOMoveX(mouseClickPosition.MousePositionValue.x , tweenDuration , isTweenSnapOn);
+        player.transform.DOMoveX(mouseManager.MousePositionValue.x , tweenDuration , isTweenSnapOn);
     }
 }
