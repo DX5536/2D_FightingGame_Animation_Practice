@@ -12,16 +12,21 @@ public class MouseClickPosition : MonoBehaviour
     private GameObject player;
 
     [SerializeField]
-    private Vector3 mousePositionValue;
-
+    private Vector2 mousePositionValue;
     //[SerializeField]
-    private GameObject gameObject2;
+    //private bool isPlayerMoving;
 
     //Property to access saved mouse position_Read Only
-    public Vector3 MousePositionValue
+    public Vector2 MousePositionValue
     {
         get { return mousePositionValue; }
     }
+
+    /*public bool IsPlayerMoving
+    {
+        get { return isPlayerMoving; }
+        set { isPlayerMoving = value; }
+    }*/
 
 
     private void OnMouseDown()
@@ -44,8 +49,9 @@ public class MouseClickPosition : MonoBehaviour
 
             //This will convert MousePos to WorldPoint of the game
                 //mousePositionValue = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mousePositionValue = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x , Camera.main.ScreenToWorldPoint(Input.mousePosition).y , 0);
-            
+                mousePositionValue = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x , Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+
+            //IsPlayerMoving = true;
         }
     }
 }

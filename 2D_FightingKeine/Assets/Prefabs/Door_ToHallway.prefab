@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5690969688254068776}
   - component: {fileID: 5690969688254068777}
   m_Layer: 0
-  m_Name: Door_ToHall
+  m_Name: Door_ToHallway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,4 +140,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   sceneToLoadIndex: 2
-  canSwitchScene: 0

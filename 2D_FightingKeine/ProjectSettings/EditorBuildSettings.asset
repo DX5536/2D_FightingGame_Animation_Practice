@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TheNeighbour_Prototype/MyRoom.unity
     guid: 8216b0dd96e051343b541f6edef279a3
   - enabled: 1
-    path: Assets/Scenes/TheNeighbour_Prototype/TestHall.unity
+    path: Assets/Scenes/TheNeighbour_Prototype/Hallway.unity
     guid: 3f2f5e6f22e2282449735292b60d5a89
   - enabled: 1
     path: Assets/Scenes/TheNeighbour_Prototype/MyNeighbour_0.unity
