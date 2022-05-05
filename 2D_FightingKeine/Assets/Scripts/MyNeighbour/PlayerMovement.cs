@@ -7,12 +7,17 @@ using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("")]
+    [Header("Moving Player to Mouse")]
     [SerializeField]
-    private GameObject gameObject1;
+    private GameObject player;
 
     [SerializeField]
-    private GameObject gameObject2;
+    private MouseClickPosition mouseClickPosition;
+
+    [SerializeField]
+    private float tweenDuration;
+    [SerializeField]
+    private bool isTweenSnapOn;
 
     void Start()
     {
@@ -21,6 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        
+        player.transform.DOMoveX(mouseClickPosition.MousePositionValue.x , tweenDuration , isTweenSnapOn);
     }
 }
