@@ -44,14 +44,14 @@ public class PlayerMovement : MonoBehaviour
         if(playerCurrentPos.x < lastMouseClickPos.x)
         {
             playerSpriteRenderer.flipX = false;
-            Debug.Log("Player moving Right");
+            //Debug.Log("Player moving Right");
         }
 
         //Mouse click Left -> Mouse's x-Value smaller than playerCurrentPos
         else
         {
             playerSpriteRenderer.flipX = true;
-            Debug.Log("Player moving Left");
+            //Debug.Log("Player moving Left");
         }
 
         //In Space movement!!! (Like a real Ninja)
